@@ -5,7 +5,7 @@
 > O diagrama representa o processo de orquestração automatizada: o arquivo é enviado ao **Amazon S3**, o **Step Functions** inicia o workflow, aciona uma função **Lambda** para validação e, conforme o resultado, envia mensagens via **SNS/SQS** ou gera logs no **CloudWatch**. Todo o ciclo é monitorado até a conclusão bem-sucedida do processo.
 
 
-Durante a prática, explorei o AWS Step Functions, um serviço de orquestração de fluxos de trabalho automatizados que permite integrar e coordenar diferentes serviços da AWS — como Lambda, S3, SNS, SQS e DynamoDB — de forma visual, escalável e com pouco código.
+Durante a prática, explorei o AWS Step Functions, um serviço de orquestração de fluxos de trabalho automatizados que permite integrar e coordenar diferentes serviços da AWS como Lambda, S3, SNS, SQS e DynamoDB de forma visual, escalável e com pouco código.
 
 
 💡 Foram criados e executados workflows automatizados para:
